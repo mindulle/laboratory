@@ -1,0 +1,31 @@
+[dart:core](../../dart-core/dart-core-library){._links-link}
+
+operator \[\] method
+====================
+
+::: {.section .multi-line-signature}
+[String](../string-class)? operator \[\](
+
+1.  [int](../int-class) group
+
+)
+:::
+
+The string matched by the given `group`.
+
+If `group` is 0, returns the match of the pattern.
+
+Short alias for [Match.group](group).
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+String? operator [](int group);
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-core/Match/operator_get.html>
+:::

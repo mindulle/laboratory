@@ -1,0 +1,28 @@
+[dart:html](../../dart-html/dart-html-library){._links-link}
+
+fillText method
+===============
+
+::: {.section .multi-line-signature}
+void fillText(
+
+1.  [String](../../dart-core/string-class) text,
+2.  [num](../../dart-core/num-class) x,
+3.  [num](../../dart-core/num-class) y,
+4.  \[[num](../../dart-core/num-class)? maxWidth\]
+
+)
+:::
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+void fillText(String text, num x, num y, [num? maxWidth]) native;
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-html/OffscreenCanvasRenderingContext2D/fillText.html>
+:::

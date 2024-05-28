@@ -1,0 +1,25 @@
+[dart:svg](../../dart-svg/dart-svg-library){._links-link}
+
+unsuspendRedraw method
+======================
+
+::: {.section .multi-line-signature}
+void unsuspendRedraw(
+
+1.  [int](../../dart-core/int-class) suspendHandleId
+
+)
+:::
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+void unsuspendRedraw(int suspendHandleId) native;
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-svg/SvgSvgElement/unsuspendRedraw.html>
+:::

@@ -1,0 +1,37 @@
+[dart:core](../../dart-core/dart-core-library){._links-link}
+
+remove method
+=============
+
+::: {.section .multi-line-signature}
+[bool](../bool-class) remove(
+
+1.  [Object](../object-class)? value
+
+)
+:::
+
+Removes `value` from the set.
+
+Returns `true` if `value` was in the set, and `false` if not. The method
+has no effect if `value` was not in the set.
+
+``` {.language-dart data-language="dart"}
+final characters = <String>{'A', 'B', 'C'};
+final didRemoveB = characters.remove('B'); // true
+final didRemoveD = characters.remove('D'); // false
+print(characters); // {A, C}
+```
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+bool remove(Object? value);
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-core/Set/remove.html>
+:::

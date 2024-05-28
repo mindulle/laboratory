@@ -1,0 +1,42 @@
+[dart:html](../../dart-html/dart-html-library){._links-link}
+
+defaultValue property
+=====================
+
+::: {#getter .section .multi-line-signature}
+[bool](../../dart-core/bool-class)? defaultValue
+
+::: {.features}
+\@JSName(\'default\')
+:::
+:::
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+@JSName('default')
+bool? get defaultValue native;
+```
+
+::: {#setter .section .multi-line-signature}
+void defaultValue=([bool](../../dart-core/bool-class)? value)
+
+::: {.features}
+\@JSName(\'default\')
+:::
+:::
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+@JSName('default')
+set defaultValue(bool? value) native;
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-html/TrackElement/defaultValue.html>
+:::

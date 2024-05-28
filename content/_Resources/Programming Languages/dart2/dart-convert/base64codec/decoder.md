@@ -1,0 +1,29 @@
+[dart:convert](../../dart-convert/dart-convert-library){._links-link}
+
+decoder property
+================
+
+::: {#getter .section .multi-line-signature}
+[Base64Decoder](../base64decoder-class) decoder
+
+::: {.features}
+override
+:::
+:::
+
+Returns the decoder of `this`, converting from `T` to `S`.
+
+It may be stateful and should not be reused.
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+Base64Decoder get decoder => const Base64Decoder();
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-convert/Base64Codec/decoder.html>
+:::

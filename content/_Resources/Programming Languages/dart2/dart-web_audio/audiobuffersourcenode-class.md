@@ -1,0 +1,249 @@
+[dart:web\_audio](../dart-web_audio/dart-web_audio-library){._links-link}
+
+AudioBufferSourceNode class
+===========================
+
+Inheritance
+
+:   -   [Object](../dart-core/object-class)
+    -   [EventTarget](../dart-html/eventtarget-class)
+    -   [AudioNode](audionode-class)
+    -   [AudioScheduledSourceNode](audioscheduledsourcenode-class)
+    -   AudioBufferSourceNode
+
+Annotations
+
+:   -   \@SupportedBrowser(SupportedBrowser.CHROME)
+    -   \@SupportedBrowser(SupportedBrowser.FIREFOX)
+    -   \@Native(\"AudioBufferSourceNode\")
+
+Constructors
+------------
+
+[AudioBufferSourceNode](audiobuffersourcenode/audiobuffersourcenode)([BaseAudioContext](baseaudiocontext-class)
+context, \[[Map](../dart-core/map-class)? options\])
+
+::: {.constructor-modifier .features}
+factory
+:::
+
+Properties {#instance-properties}
+----------
+
+[buffer](audiobuffersourcenode/buffer) ↔
+[AudioBuffer](audiobuffer-class)?
+
+::: {.features}
+read / write
+:::
+
+[channelCount](audionode/channelcount) ↔ [int](../dart-core/int-class)?
+
+::: {.features}
+read / write, inherited
+:::
+
+[channelCountMode](audionode/channelcountmode) ↔
+[String](../dart-core/string-class)?
+
+::: {.features}
+read / write, inherited
+:::
+
+[channelInterpretation](audionode/channelinterpretation) ↔
+[String](../dart-core/string-class)?
+
+::: {.features}
+read / write, inherited
+:::
+
+[context](audionode/context) →
+[BaseAudioContext](baseaudiocontext-class)?
+
+::: {.features}
+read-only, inherited
+:::
+
+[detune](audiobuffersourcenode/detune) → [AudioParam](audioparam-class)?
+
+::: {.features}
+read-only
+:::
+
+[hashCode](../dart-core/object/hashcode) → [int](../dart-core/int-class)
+
+::: {.features}
+read-only, inherited
+:::
+
+The hash code for this object.
+
+[loop](audiobuffersourcenode/loop) ↔ [bool](../dart-core/bool-class)?
+
+::: {.features}
+read / write
+:::
+
+[loopEnd](audiobuffersourcenode/loopend) ↔
+[num](../dart-core/num-class)?
+
+::: {.features}
+read / write
+:::
+
+[loopStart](audiobuffersourcenode/loopstart) ↔
+[num](../dart-core/num-class)?
+
+::: {.features}
+read / write
+:::
+
+[numberOfInputs](audionode/numberofinputs) →
+[int](../dart-core/int-class)?
+
+::: {.features}
+read-only, inherited
+:::
+
+[numberOfOutputs](audionode/numberofoutputs) →
+[int](../dart-core/int-class)?
+
+::: {.features}
+read-only, inherited
+:::
+
+[on](../dart-html/eventtarget/on) → [Events](../dart-html/events-class)
+
+::: {.features}
+read-only, inherited
+:::
+
+This is an ease-of-use accessor for event streams which should only be
+used when an explicit accessor is not available.
+
+[onEnded](audioscheduledsourcenode/onended) →
+[Stream](../dart-async/stream-class)\<[Event](../dart-html/event-class)\>
+
+::: {.features}
+read-only, inherited
+:::
+
+[playbackRate](audiobuffersourcenode/playbackrate) →
+[AudioParam](audioparam-class)?
+
+::: {.features}
+read-only
+:::
+
+[runtimeType](../dart-core/object/runtimetype) →
+[Type](../dart-core/type-class)
+
+::: {.features}
+read-only, inherited
+:::
+
+A representation of the runtime type of the object.
+
+Methods {#instance-methods}
+-------
+
+[addEventListener](../dart-html/eventtarget/addeventlistener)([String](../dart-core/string-class)
+type, [EventListener](../dart-html/eventlistener)? listener,
+\[[bool](../dart-core/bool-class)? useCapture\]) → void
+
+::: {.features}
+inherited
+:::
+
+[connectNode](audionode/connectnode)([AudioNode](audionode-class)
+destination, \[[int](../dart-core/int-class) output = 0,
+[int](../dart-core/int-class) input = 0\]) → void
+
+::: {.features}
+inherited
+:::
+
+[connectParam](audionode/connectparam)([AudioParam](audioparam-class)
+destination, \[[int](../dart-core/int-class) output = 0\]) → void
+
+::: {.features}
+inherited
+:::
+
+[disconnect](audionode/disconnect)(\[dynamic destination\_OR\_output,
+[int](../dart-core/int-class)? output, [int](../dart-core/int-class)?
+input\]) → void
+
+::: {.features}
+inherited
+:::
+
+[dispatchEvent](../dart-html/eventtarget/dispatchevent)([Event](../dart-html/event-class)
+event) → [bool](../dart-core/bool-class)
+
+::: {.features}
+inherited
+:::
+
+[noSuchMethod](../dart-core/object/nosuchmethod)([Invocation](../dart-core/invocation-class)
+invocation) → dynamic
+
+::: {.features}
+inherited
+:::
+
+Invoked when a non-existent method or property is accessed.
+
+[removeEventListener](../dart-html/eventtarget/removeeventlistener)([String](../dart-core/string-class)
+type, [EventListener](../dart-html/eventlistener)? listener,
+\[[bool](../dart-core/bool-class)? useCapture\]) → void
+
+::: {.features}
+inherited
+:::
+
+[start](audiobuffersourcenode/start)(\[[num](../dart-core/num-class)?
+when, [num](../dart-core/num-class)? grainOffset,
+[num](../dart-core/num-class)? grainDuration\]) → void
+
+[start2](audioscheduledsourcenode/start2)(\[[num](../dart-core/num-class)?
+when\]) → void
+
+::: {.features}
+\@JSName(\'start\'), inherited
+:::
+
+[stop](audioscheduledsourcenode/stop)(\[[num](../dart-core/num-class)?
+when\]) → void
+
+::: {.features}
+inherited
+:::
+
+[toString](../dart-core/object/tostring)() →
+[String](../dart-core/string-class)
+
+::: {.features}
+inherited
+:::
+
+A string representation of this object.
+
+Operators
+---------
+
+[operator
+==](../dart-core/object/operator_equals)([Object](../dart-core/object-class)
+other) → [bool](../dart-core/bool-class)
+
+::: {.features}
+inherited
+:::
+
+The equality operator.
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-web_audio/AudioBufferSourceNode-class.html>
+:::

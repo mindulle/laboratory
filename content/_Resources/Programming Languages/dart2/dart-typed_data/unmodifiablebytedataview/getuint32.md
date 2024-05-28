@@ -1,0 +1,39 @@
+[dart:typed\_data](../../dart-typed_data/dart-typed_data-library){._links-link}
+
+getUint32 method
+================
+
+::: {.section .multi-line-signature}
+[int](../../dart-core/int-class) getUint32(
+
+1.  [int](../../dart-core/int-class) byteOffset,
+2.  \[[Endian](../endian-class) endian = Endian.big\]
+
+)
+
+::: {.features}
+override
+:::
+:::
+
+Returns the positive integer represented by the four bytes starting at
+the specified `byteOffset` in this object, in unsigned binary form.
+
+The return value will be between 0 and 2^32^ - 1, inclusive.
+
+The `byteOffset` must be non-negative, and `byteOffset + 4` must be less
+than or equal to the length of this object.
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+int getUint32(int byteOffset, [Endian endian = Endian.big]) =>
+    _data.getUint32(byteOffset, endian);
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-typed_data/UnmodifiableByteDataView/getUint32.html>
+:::

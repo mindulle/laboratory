@@ -1,0 +1,35 @@
+[dart:svg](../../dart-svg/dart-svg-library){._links-link}
+
+doubleClickEvent constant
+=========================
+
+::: {.section .multi-line-signature}
+[EventStreamProvider](../../dart-html/eventstreamprovider-class)\<[Event](../../dart-html/event-class)\>
+const doubleClickEvent
+
+::: {.features}
+\@DomName(\'SVGElement.dblclickEvent\')
+:::
+:::
+
+Static factory designed to expose `doubleclick` events to event handlers
+that are not necessarily instances of
+[Element](../../dart-html/element-class).
+
+See [EventStreamProvider](../../dart-html/eventstreamprovider-class) for
+usage information.
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+@DomName('SVGElement.dblclickEvent')
+static const EventStreamProvider<Event> doubleClickEvent =
+    const EventStreamProvider<Event>('dblclick');
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-svg/SvgElement/doubleClickEvent-constant.html>
+:::

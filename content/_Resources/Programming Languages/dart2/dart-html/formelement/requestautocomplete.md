@@ -1,0 +1,29 @@
+[dart:html](../../dart-html/dart-html-library){._links-link}
+
+requestAutocomplete method
+==========================
+
+::: {.section .multi-line-signature}
+void requestAutocomplete(
+
+1.  [Map](../../dart-core/map-class)? details
+
+)
+:::
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+void requestAutocomplete(Map? details) {
+  var details_1 = convertDartToNative_Dictionary(details);
+  _requestAutocomplete_1(details_1);
+  return;
+}
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-html/FormElement/requestAutocomplete.html>
+:::

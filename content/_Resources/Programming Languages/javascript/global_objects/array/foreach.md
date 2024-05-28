@@ -290,7 +290,7 @@ const obj2 = copy(obj1); // obj2 looks like obj1 now
 
 The following example is only here for learning purpose. If you want to
 flatten an array using built-in methods, you can use
-[`Array.prototype.flat()`](flat).
+[`Array.prototype.flat()`](_Resources/Programming%20Languages/javascript/global_objects/array/flat.md).
 
 
 

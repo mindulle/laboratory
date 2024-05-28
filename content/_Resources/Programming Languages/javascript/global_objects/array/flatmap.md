@@ -20,7 +20,7 @@ browser versions. It's been available across browsers since January
 The `flatMap()` method of [`Array`](../array) instances returns a new
 array formed by applying a given callback function to each element of
 the array, and then flattening the result by one level. It is identical
-to a [`map()`](map) followed by a [`flat()`](flat) of depth 1
+to a [`map()`](map) followed by a [`flat()`](_Resources/Programming%20Languages/javascript/global_objects/array/flat.md) of depth 1
 (`arr.map(...args).flat()`), but slightly more efficient than calling
 those two methods separately.
 
@@ -100,7 +100,7 @@ The `flatMap()` method is an [iterative
 method](../array#iterative_methods). See [`Array.prototype.map()`](map)
 for a detailed description of the callback function. The `flatMap()`
 method is identical to [`map(callbackFn, thisArg)`](map) followed by
-[`flat(1)`](flat) --- for each element, it produces an array of new
+[`flat(1)`](_Resources/Programming%20Languages/javascript/global_objects/array/flat.md) --- for each element, it produces an array of new
 elements, and concatenates the resulting arrays together to form a new
 array. Read the [iterative methods](../array#iterative_methods) section
 for more information about how these methods work in general.
@@ -425,7 +425,7 @@ See also
     guide
 -   [`Array`](../array)
 -   [`Array.prototype.concat()`](concat)
--   [`Array.prototype.flat()`](flat)
+-   [`Array.prototype.flat()`](_Resources/Programming%20Languages/javascript/global_objects/array/flat.md)
 -   [`Array.prototype.map()`](map)
 -   [`Array.prototype.reduce()`](reduce)
 

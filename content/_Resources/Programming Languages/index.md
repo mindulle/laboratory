@@ -314,5 +314,7 @@
 | Static initialization blocks | `class ClassWithSIB { static { // …  } }` | initialization logic can be placed in an `init` function or handled at runtime. |
 ### Additional reference pages
 - [[_Resources/Programming Languages/javascript/index#Additional reference pages|javascript]]
+- [[_Resources/Programming Languages/typescript/index|Typescript]]
 - [[_Resources/Programming Languages/go/index#Other packages|go]]
+- [[_Resources/Programming Languages/dart2/index|dart2]]
 

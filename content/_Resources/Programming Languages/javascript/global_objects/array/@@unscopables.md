@@ -51,7 +51,7 @@ statement-binding purposes are:
 -   [`findIndex()`](findindex)
 -   [`findLast()`](findlast)
 -   [`findLastIndex()`](findlastindex)
--   [`flat()`](flat)
+-   [`flat()`](_Resources/Programming%20Languages/javascript/global_objects/array/flat.md)
 -   [`flatMap()`](flatmap)
 -   [`includes()`](includes)
 -   [`keys()`](keys)

@@ -558,7 +558,7 @@ Some of the acceptable use cases of `reduce()` are given above (most
 notably, summing an array, promise sequencing, and function piping).
 There are other cases where better alternatives than `reduce()` exist.
 
--   Flattening an array of arrays. Use [`flat()`](flat) instead.
+-   Flattening an array of arrays. Use [`flat()`](_Resources/Programming%20Languages/javascript/global_objects/array/flat.md) instead.
     
     
     [js]
@@ -810,7 +810,7 @@ See also
     guide
 -   [`Array`](../array)
 -   [`Array.prototype.map()`](map)
--   [`Array.prototype.flat()`](flat)
+-   [`Array.prototype.flat()`](_Resources/Programming%20Languages/javascript/global_objects/array/flat.md)
 -   [`Array.prototype.flatMap()`](flatmap)
 -   [`Array.prototype.reduceRight()`](reduceright)
 -   [`TypedArray.prototype.reduce()`](../typedarray/reduce)

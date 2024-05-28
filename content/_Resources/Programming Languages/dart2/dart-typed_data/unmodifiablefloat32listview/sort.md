@@ -1,0 +1,34 @@
+[dart:typed\_data](../../dart-typed_data/dart-typed_data-library){._links-link}
+
+sort method
+===========
+
+::: {.section .multi-line-signature}
+void sort(
+
+1.  \[[Comparator](../../dart-core/comparator)\<[double](../../dart-core/double-class)\>?
+    compare\]
+
+)
+
+::: {.features}
+inherited
+:::
+:::
+
+This operation is not supported by an unmodifiable list.
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+void sort([Comparator<E>? compare]) {
+  throw new UnsupportedError("Cannot modify an unmodifiable list");
+}
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-typed_data/UnmodifiableFloat32ListView/sort.html>
+:::

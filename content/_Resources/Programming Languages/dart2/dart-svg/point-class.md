@@ -1,0 +1,84 @@
+[dart:svg](../dart-svg/dart-svg-library){._links-link}
+
+Point class
+===========
+
+Annotations
+
+:   -   \@Unstable()
+    -   \@Native(\"SVGPoint\")
+
+Properties {#instance-properties}
+----------
+
+[hashCode](../dart-core/object/hashcode) → [int](../dart-core/int-class)
+
+::: {.features}
+read-only, inherited
+:::
+
+The hash code for this object.
+
+[runtimeType](../dart-core/object/runtimetype) →
+[Type](../dart-core/type-class)
+
+::: {.features}
+read-only, inherited
+:::
+
+A representation of the runtime type of the object.
+
+[x](point/x) ↔ [num](../dart-core/num-class)?
+
+::: {.features}
+read / write
+:::
+
+[y](point/y) ↔ [num](../dart-core/num-class)?
+
+::: {.features}
+read / write
+:::
+
+Methods {#instance-methods}
+-------
+
+[matrixTransform](point/matrixtransform)([Matrix](matrix-class) matrix)
+→ [Point](point-class)
+
+[noSuchMethod](../dart-core/object/nosuchmethod)([Invocation](../dart-core/invocation-class)
+invocation) → dynamic
+
+::: {.features}
+inherited
+:::
+
+Invoked when a non-existent method or property is accessed.
+
+[toString](../dart-core/object/tostring)() →
+[String](../dart-core/string-class)
+
+::: {.features}
+inherited
+:::
+
+A string representation of this object.
+
+Operators
+---------
+
+[operator
+==](../dart-core/object/operator_equals)([Object](../dart-core/object-class)
+other) → [bool](../dart-core/bool-class)
+
+::: {.features}
+inherited
+:::
+
+The equality operator.
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-svg/Point-class.html>
+:::

@@ -1,0 +1,38 @@
+[dart:html](../../dart-html/dart-html-library){._links-link}
+
+width property
+==============
+
+::: {#getter .section .multi-line-signature}
+[String](../../dart-core/string-class) width
+:::
+
+Gets the value of \"width\"
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+String get width => getPropertyValue('width');
+```
+
+::: {#setter .section .multi-line-signature}
+void width=([String](../../dart-core/string-class) value)
+:::
+
+Sets the value of \"width\"
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+set width(String value) {
+  setProperty('width', value, '');
+}
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-html/CssStyleDeclarationBase/width.html>
+:::

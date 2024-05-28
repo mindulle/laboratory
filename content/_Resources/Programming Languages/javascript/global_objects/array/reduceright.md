@@ -499,7 +499,7 @@ See also
     guide
 -   [`Array`](../array)
 -   [`Array.prototype.map()`](map)
--   [`Array.prototype.flat()`](flat)
+-   [`Array.prototype.flat()`](_Resources/Programming%20Languages/javascript/global_objects/array/flat.md)
 -   [`Array.prototype.flatMap()`](flatmap)
 -   [`Array.prototype.reduce()`](reduce)
 -   [`TypedArray.prototype.reduceRight()`](../typedarray/reduceright)

@@ -1,0 +1,25 @@
+[dart:html](../../dart-html/dart-html-library){._links-link}
+
+refresh method
+==============
+
+::: {.section .multi-line-signature}
+void refresh(
+
+1.  [bool](../../dart-core/bool-class)? reload
+
+)
+:::
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+void refresh(bool? reload) native;
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-html/PluginArray/refresh.html>
+:::

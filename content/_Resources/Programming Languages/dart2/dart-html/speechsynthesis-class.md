@@ -1,0 +1,136 @@
+[dart:html](../dart-html/dart-html-library){._links-link}
+
+SpeechSynthesis class
+=====================
+
+Inheritance
+
+:   -   [Object](../dart-core/object-class)
+    -   [EventTarget](eventtarget-class)
+    -   SpeechSynthesis
+
+Annotations
+
+:   -   \@Native(\"SpeechSynthesis\")
+
+Properties {#instance-properties}
+----------
+
+[hashCode](../dart-core/object/hashcode) → [int](../dart-core/int-class)
+
+::: {.features}
+read-only, inherited
+:::
+
+The hash code for this object.
+
+[on](eventtarget/on) → [Events](events-class)
+
+::: {.features}
+read-only, inherited
+:::
+
+This is an ease-of-use accessor for event streams which should only be
+used when an explicit accessor is not available.
+
+[paused](speechsynthesis/paused) → [bool](../dart-core/bool-class)?
+
+::: {.features}
+read-only
+:::
+
+[pending](speechsynthesis/pending) → [bool](../dart-core/bool-class)?
+
+::: {.features}
+read-only
+:::
+
+[runtimeType](../dart-core/object/runtimetype) →
+[Type](../dart-core/type-class)
+
+::: {.features}
+read-only, inherited
+:::
+
+A representation of the runtime type of the object.
+
+[speaking](speechsynthesis/speaking) → [bool](../dart-core/bool-class)?
+
+::: {.features}
+read-only
+:::
+
+Methods {#instance-methods}
+-------
+
+[addEventListener](eventtarget/addeventlistener)([String](../dart-core/string-class)
+type, [EventListener](eventlistener)? listener,
+\[[bool](../dart-core/bool-class)? useCapture\]) → void
+
+::: {.features}
+inherited
+:::
+
+[cancel](speechsynthesis/cancel)() → void
+
+[dispatchEvent](eventtarget/dispatchevent)([Event](event-class) event) →
+[bool](../dart-core/bool-class)
+
+::: {.features}
+inherited
+:::
+
+[getVoices](speechsynthesis/getvoices)() →
+[List](../dart-core/list-class)\<[SpeechSynthesisVoice](speechsynthesisvoice-class)\>
+
+[noSuchMethod](../dart-core/object/nosuchmethod)([Invocation](../dart-core/invocation-class)
+invocation) → dynamic
+
+::: {.features}
+inherited
+:::
+
+Invoked when a non-existent method or property is accessed.
+
+[pause](speechsynthesis/pause)() → void
+
+[removeEventListener](eventtarget/removeeventlistener)([String](../dart-core/string-class)
+type, [EventListener](eventlistener)? listener,
+\[[bool](../dart-core/bool-class)? useCapture\]) → void
+
+::: {.features}
+inherited
+:::
+
+[resume](speechsynthesis/resume)() → void
+
+[speak](speechsynthesis/speak)([SpeechSynthesisUtterance](speechsynthesisutterance-class)
+utterance) → void
+
+[toString](../dart-core/object/tostring)() →
+[String](../dart-core/string-class)
+
+::: {.features}
+inherited
+:::
+
+A string representation of this object.
+
+Operators
+---------
+
+[operator
+==](../dart-core/object/operator_equals)([Object](../dart-core/object-class)
+other) → [bool](../dart-core/bool-class)
+
+::: {.features}
+inherited
+:::
+
+The equality operator.
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-html/SpeechSynthesis-class.html>
+:::

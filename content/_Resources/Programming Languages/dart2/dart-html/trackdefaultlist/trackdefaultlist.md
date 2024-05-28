@@ -1,0 +1,31 @@
+[dart:html](../../dart-html/dart-html-library){._links-link}
+
+TrackDefaultList constructor
+============================
+
+::: {.section .multi-line-signature}
+TrackDefaultList(
+
+1.  \[[List](../../dart-core/list-class)\<[TrackDefault](../trackdefault-class)\>?
+    trackDefaults\]
+
+)
+:::
+
+Implementation {#source}
+--------------
+
+``` {.language-dart data-language="dart"}
+factory TrackDefaultList([List<TrackDefault>? trackDefaults]) {
+  if (trackDefaults != null) {
+    return TrackDefaultList._create_1(trackDefaults);
+  }
+  return TrackDefaultList._create_2();
+}
+```
+
+::: {._attribution}
+© 2012 the Dart project authors\
+Licensed under the BSD 3-Clause \"New\" or \"Revised\" License.\
+<https://api.dart.dev/stable/2.18.5/dart-html/TrackDefaultList/TrackDefaultList.html>
+:::
